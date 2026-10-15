@@ -24,9 +24,9 @@ import numpy as np
 
 
 DEFAULTS = (
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv",
-    "/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv",
+    "/data/loto7_4702_k82.csv",
+    "/data/loto7_4702_k82_loto_2973.csv",
+    "/data/loto7_4702_k82_loto_plus_1729.csv",
 )
 
 TRAIN = 192
@@ -1105,7 +1105,7 @@ Tao V1: korelacije viseg reda; bez random generisanja i filtera oblika.
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82.csv
+/data/loto7_4702_k82.csv
 Redova: 4702; poslednja: (8, 10, 13, 21, 22, 23, 32)
 Validacija Tao, (4, 0.05): 1.2708
 Validacija Tao, (4, 0.5): 1.2083
@@ -1119,14 +1119,14 @@ Kontrola: prethodno izvuceno kolo=1.1719
 Distribucija pogodaka 0..7: [16, 20, 21, 6, 1, 0, 0, 0]
 3+=7/64; 4+=1/64
 Razlicitih kombinacija=35/64; istorijskih ponavljanja=52/64; nizova 5+=1
-NEXT red 4703: 3,8,12,17,18,30,33
+NEXT red 4703: 3,x,12,y,18,z,33
 NEXT vec postoji u istoriji: True
 NEXT najduzi niz: 2
 NEXT brojeva <=19: 5
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_2973.csv
+/data/loto7_4702_k82_loto_2973.csv
 Redova: 2973; poslednja: (1, 2, 8, 26, 29, 35, 39)
 Validacija Tao, (4, 0.05): 1.2708
 Validacija Tao, (4, 0.5): 1.2083
@@ -1140,14 +1140,14 @@ Kontrola: prethodno izvuceno kolo=1.3281
 Distribucija pogodaka 0..7: [10, 27, 22, 5, 0, 0, 0, 0]
 3+=5/64; 4+=0/64
 Razlicitih kombinacija=40/64; istorijskih ponavljanja=45/64; nizova 5+=0
-NEXT red 2974: 18,20,21,24,29,34,38
+NEXT red 2974: 18,x,21,y,29,z,38
 NEXT vec postoji u istoriji: True
 NEXT najduzi niz: 2
 NEXT brojeva <=19: 1
 
 
 
-/Users/4c/Desktop/GHQ/data/loto7_4702_k82_loto_plus_1729.csv
+/data/loto7_4702_k82_loto_plus_1729.csv
 Redova: 1729; poslednja: (8, 10, 13, 21, 22, 23, 32)
 Validacija Tao, (4, 0.05): 1.2708
 Validacija Tao, (4, 0.5): 1.2917
@@ -1161,7 +1161,7 @@ Kontrola: prethodno izvuceno kolo=1.2656
 Distribucija pogodaka 0..7: [18, 26, 14, 5, 1, 0, 0, 0]
 3+=6/64; 4+=1/64
 Razlicitih kombinacija=52/64; istorijskih ponavljanja=37/64; nizova 5+=0
-NEXT red 1730: 2,3,8,17,18,21,22
+NEXT red 1730: 2,x,8,y,18,z,22
 NEXT vec postoji u istoriji: True
 NEXT najduzi niz: 2
 NEXT brojeva <=19: 5
